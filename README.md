@@ -1,6 +1,6 @@
-# Introduction to Newsletter Email
+# Introduction to Robinhood Snacks Email
 
-[![](https://github.com/d7chau/newsletter-email/blob/main/img/robinhood-thumbnail.png)](https://d7chau.github.io/newsletter-email/)
+[![](https://github.com/d7chau/newsletter-email/blob/main/img/robinhood-thumbnail.png)](https://d7chau.github.io/robinhood-snacks-email/)
 
 ## Description
 
@@ -17,7 +17,7 @@ Email was tested using Litmus in all major email clients including:
 
 ## Live Demo
 
-https://d7chau.github.io/newsletter-email/
+https://d7chau.github.io/robinhood-snacks-email/
 
 ## Authors
 

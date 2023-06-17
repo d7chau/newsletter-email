@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"> <!-- Set XML namespace to make it compatible with XHTML standards -->
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="x-apple-disable-message-reformatting"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <link rel="icon" type="image/x-icon" href="img/robinhood-favicon.ico">  
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> <!-- Set the character set, UTF-8 is a character encoding system -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Controls page dimensions and scaling -->
+        <meta name="x-apple-disable-message-reformatting"/> <!-- Disable auto-scaling for Apple devices -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <!-- Choose what version of Internet Explorer the page should be rendered as -->
+        <link rel="icon" type="image/x-icon" href="img/robinhood-favicon.ico">  <!-- Adds favicon image to webpage -->
         <title>Robinhood Snacks</title>
 
-        <!--[if mso]>
+        <!-- Fixes scaling issue in Outlook below -->
+
+        <!--[if mso]> 
         <xml>
         <o:OfficeDocumentSettings>
         <o:AllowPNG/>
@@ -16,6 +18,8 @@
         </o:OfficeDocumentSettings>
         </xml>
         <![endif]-->
+
+        <!-- Removes underline from all hyperlinks in Outlook below -->
 
         <!--[if (gte mso 9)|(IE)]>
         <style type="text/css">
@@ -27,13 +31,13 @@
         <![endif]-->
 
         <style>
-            /* Fixes addresses, phone numbers, etc. turning into links */
+            /* Fixes addresses and phone numbers turning into links for Apple devices*/
             #id1 #id2 a[x-apple-data-detectors]{
                 color: inherit !important;
                 text-decoration: inherit !important;
             }
 
-            /* (if smaller than 600px then run code)*/
+            /* Desktop (if smaller than 600px then run code)*/
             @media only screen and (max-width:600px){
                 .container{
                     width: 480px;
@@ -212,8 +216,8 @@
                                 <td>
                                     <table class="room-bot-table" width="100%" cellspacing="0" cellpadding="0" border="0" align="center" role="presentation">
                                         <tr>
-                                            <td style="padding-left:15px; padding-bottom: 25px;">
-                                                <div><!--[if mso]>
+                                            <td style="padding-left:15px; padding-bottom: 25px;"> <!-- Bulletproof Email Button below (works for all clients) -->
+                                                <div><!--[if mso]> 
                                                     <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="" style="height:36px;v-text-anchor:middle;width:118px;" arcsize="89%" stroke="f" fillcolor="#c3f53c">
                                                       <w:anchorlock/>
                                                       <center>
@@ -244,7 +248,7 @@
                                                 </tr>                                                 
                                                 <tr>
                                                     <td>
-                                                        <table class="bullet-list" cellpadding="0" cellspacing="0" border="0" role="presentation"> 
+                                                        <table class="bullet-list" cellpadding="0" cellspacing="0" border="0" role="presentation"> <!-- Can't use list tags (li/ol/ul) | Need to create a separate table and use (td/tr) tags-->
                                                             <tr>
                                                                 <td class="bullet-point" valign="top" style="padding-left: 24px;">&#8226;</td>
                                                                 <td style="padding: 0 15px 10px 10px;" valign="top" align="left">  
@@ -355,7 +359,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <table class="bullet-list" cellpadding="0" cellspacing="0" border="0"> 
+                                                        <table class="bullet-list" cellpadding="0" cellspacing="0" border="0"> <!-- Can't use list tags (li/ol/ul) | Need to create a separate table and use (td/tr) tags-->
                                                             <tr>
                                                                 <td class="bullet-point" valign="top" style="padding-left: 24px;">&#8226;</td>
                                                                 <td style="padding: 0 15px 10px 10px;" valign="top" align="left">  
